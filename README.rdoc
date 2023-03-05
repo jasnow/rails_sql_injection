@@ -1,3 +1,5 @@
+Based on https://github.com/UnitasBrooks/rails_sql_injection
+
 == README
 
 This is a simple Ruby on Rails app to practice SQL injection. Raw SQL Search inserts user input directly into a query and is highly susceptible to injection attacks. Sanitized Search is much better, it replaces single quotes with double quotes. I have read that this method can be broken but I was unable to replicate any of the methods I found. Prepared statement search uses a two step prepared statement built into the PG gem and is by far the safest. 
