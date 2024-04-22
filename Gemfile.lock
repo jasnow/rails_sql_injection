@@ -317,7 +317,7 @@ DEPENDENCIES
   sdoc
   simplecov
   spektr
-  sqlite3
+  sqlite3 (~> 1.4)
   turbolinks
   uglifier
 
