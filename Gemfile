@@ -40,7 +40,6 @@ group :test do
 end
 
 group :development, :test do
-  gem 'ruby_audit'
   gem 'spektr'
 end
 
